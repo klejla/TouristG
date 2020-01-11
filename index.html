@@ -1,0 +1,61 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript">
+    function toggleSidebar(){
+    document.getElementById("sidebar").classList.toggle('active');
+  }
+ </script>
+</head>
+
+<body>
+	<div id="sidebar">
+  <div class="toggle-btn" onclick="toggleSidebar()"><a>
+   <span></span>
+   <span></span>
+   <span></span>
+  </a>
+  </div>
+  <ul>
+   <li class="nav-item"><a class="nav-link" href="index.html"> Home </a></li>
+   <li class="nav-item"><a class="nav-link" href="about.html"> About us </a></li>
+   <li class="nav-item"><a class="nav-link" href="index.html"> Tourist Guides </a></li>
+  </ul>
+ </div>
+
+					<center><br><br>
+					<div class="img">
+						<img src="cities.jpg" width="300" height="200" >
+					</div>
+					<div class="login">
+						<br><div class="text">
+							<h1>Feel free to join and find your tourist guide!</h1>
+						</div>
+						<form action="action">
+							<p><input type="text" placeholder="Name" name="Name"></p>
+								<p><input type="text" placeholder="Surname" name="Surname"></p>
+							<p><input type="text" placeholder="Email" name="Email"></p>
+							<p><input type="text" placeholder="Password" name="Password"></p>
+							<p><button type="submit">Log in</button></p>
+						</form>
+					</div>
+					<div class="city">
+						Please choose a city!
+						<select name="City">
+							<option value="IT">Istanbul</option>
+							<option value="NY">New York</option>
+							<option value="LN">London</option>
+							<option value="LB">Lisbon</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+
+
+
+				</div>
+			</div>
+		
+		</body>
+		</html>
